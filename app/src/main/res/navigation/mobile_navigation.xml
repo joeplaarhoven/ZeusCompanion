@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_weather">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.zeuscompanion.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_weather"
+        android:name="com.example.zeuscompanion.ui.weather.WeatherFragment"
+        android:label="@string/menu_weather"
+        tools:layout="@layout/fragment_weather" />
 
     <fragment
-        android:id="@+id/nav_Lights"
+        android:id="@+id/nav_light"
         android:name="com.example.zeuscompanion.ui.lights.LightsFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_light"
         tools:layout="@layout/fragment_lights" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_camera"
         android:name="com.example.zeuscompanion.ui.camera.CameraFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_camera"
         tools:layout="@layout/fragment_camera" />
 </navigation>

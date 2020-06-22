@@ -1,14 +1,14 @@
-package com.example.zeuscompanion.ui.home;
+package com.example.zeuscompanion.ui.weather;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class WeatherViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public WeatherViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is home fragment");
     }
